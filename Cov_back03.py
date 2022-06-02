@@ -81,6 +81,6 @@ def relatorios_sintomas(cid,resp,sint):
 		print("\n\nSUMARIZAÇÃO DOS SINTOMAS DETECTADOS NOS CIDADÃOS CADASTRADOS:\n")
 		print('\n',list(positivos.keys())[0],':',len(list(positivos.items())[0][1]),'\n',list(positivos.keys())[1],':',len(list(positivos.items())[1][1]),'\n',list(positivos.keys())[2],':',len(list(positivos.items())[2][1]),'\n',list(positivos.keys())[3],':',len(list(positivos.items())[3][1]),'\n',list(positivos.keys())[4],':',len(list(positivos.items())[4][1]))
 
-# Linhas válidas de código da biblioteca de back-end 03: 69
+# Linhas válidas de código da biblioteca de back-end 03: 70
 # Comandos da linguagem (10): "print(str)", "input()", "upper(str)", "enumerate(list)", "len(str/list)", "range(num_ini,num_fin)", "int(str)", "lower(str)", "count(str)", "replace(str_ext,str_int)", "isnumeric(str)", "pass", "exit"
 # Variáveis (20): "faixas" - list(str), "pessoas_faixas" - list(str), "generos" - list(str), "pessoas_generos" - list(str), "sintomas" - list(str), "pessoas_sintomas" - list(str), "ind" - int, "val" - str, "pes" - int, "sub" - int, "eta" - list, "gen_dados" - str, "fxe_dados" - str, "f" - str , "mat_gfe" - list(list), "id" - set, "elem" - tuple, "mat_gf" - list(list), "tab" - obj, "tab_lin" - list(obj).
