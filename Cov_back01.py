@@ -1,6 +1,6 @@
 # Biblioteca de back-end 01 com funções para cadastros
 
-from Cov_back00_v9 import valid_num as valn, valid_tex as valt
+from Cov_back00 import valid_num as valn, valid_tex as valt
 import random as rd
 
 # Função para cadastrar saudações e despedidas (com parâmetro e retorno "cump")
