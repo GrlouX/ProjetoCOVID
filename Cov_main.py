@@ -1,12 +1,12 @@
 # Código principal de aplicativo para registrar e fornecer respostas sobre COVID-19 a um grupo de pessoas
 
 # Importação das bibliotecas de front-end e back-end
-from Cov_front01_v9 import logar as lgr, menu_cadastros as mncad, menu_cidadaos as mncid, menu_listas as mnlist, menu_relatorios as mnrel #Biblioteca front-end de menus
-from Cov_front02_v9 import listar_cumprimentos as listcump, listar_cidadaos as listcid, listar_perguntas as listperg, listar_usuarios as listusu, despedir as dpr #Biblioteca front-end de listagens
-from Cov_back00_v9 import erro_menu_princ as errmnpri, erro_menu_secund as errmnsec, erro_menu_terci as errmnter #Biblioteca back-end para tratamento de erros
-from Cov_back01_v9 import cadastrar_cumprimentos as cadcump, cadastrar_cidadaos as cadcid, importar_arquivo as imparq, cadastrar_perguntas as cadperg, cadastrar_usuarios as cadusu #Biblioteca back-end de cadastros
-from Cov_back02_v9 import questionario as quest, diagnostico as diag #Biblioteca back-end de entrevista e diagnóstico
-from Cov_back03_v9 import relatorios_cidadaos as relatcid, relatorios_sintomas as relatsint #Biblioteca back-end de relatórios
+from Cov_front01 import logar as lgr, menu_cadastros as mncad, menu_cidadaos as mncid, menu_listas as mnlist, menu_relatorios as mnrel #Biblioteca front-end de menus
+from Cov_front02 import listar_cumprimentos as listcump, listar_cidadaos as listcid, listar_perguntas as listperg, listar_usuarios as listusu, despedir as dpr #Biblioteca front-end de listagens
+from Cov_back00 import erro_menu_princ as errmnpri, erro_menu_secund as errmnsec, erro_menu_terci as errmnter #Biblioteca back-end para tratamento de erros
+from Cov_back01 import cadastrar_cumprimentos as cadcump, cadastrar_cidadaos as cadcid, importar_arquivo as imparq, cadastrar_perguntas as cadperg, cadastrar_usuarios as cadusu #Biblioteca back-end de cadastros
+from Cov_back02 import questionario as quest, diagnostico as diag #Biblioteca back-end de entrevista e diagnóstico
+from Cov_back03 import relatorios_cidadaos as relatcid, relatorios_sintomas as relatsint #Biblioteca back-end de relatórios
 
 # Listas de saudações e despedidas pré-cadastradas, para possibilitar cumprimentos na primeira iteração do algoritmo
 saudacoes=["\nBem-vindos(as) ao app MonitoraCOVID!","\nOlá pessoas! App MonitoraCOVID na área.","\nOi pessoal! Teste do app MonitoraCOVID para a galera!"]
