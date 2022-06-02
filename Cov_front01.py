@@ -1,7 +1,7 @@
 # Biblioteca de front-end 01 com funções para exibição na tela dos menus aos usuários
 
 # Importação de bibliotecas necessárias
-from Cov_back00_v9 import erro_menu_user as errmnuser
+from Cov_back00 import erro_menu_user as errmnuser
 import random as rd
 
 # Função para imprimir saudações e realizar login do usuário (com parâmetros "saud, autuser, cidadaos" e retorno "opc")
