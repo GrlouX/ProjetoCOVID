@@ -98,5 +98,5 @@ def valid_num(num,cham):
 	return num_nat
 
 # Linhas válidas de código da biblioteca de back-end 00: 78
-# Comandos da linguagem (8): "print(str)", "input()", "upper(str)", "len(str/list)", "range(num_ini,num_fin)", "int(str)", "lower(str)", "count(str)", "replace(str_ext,str_int)", "isnumeric(str)", "pass"
-# Variáveis (12): "opc" - str, "res_opc" - str, "cham" - str, "texto" - str, "texto_aux" - str, "char" - str, "texto_norm" - str, "num" - str, "num_aux" - str, "num_nat" - str, "ent" - str, "lst" - list.
+# Comandos da linguagem (8): "print(str)", "input()", "upper(str)", "len(str/list)", "range(num_ini,num_fin)", "int(str)", "lower(str)", "count(str)", "replace(str_ext,str_int)", "isnumeric(str)", "pass".
+# Variáveis (12): "opc" - str, "res_opc" - str, "cham" - str, "texto" - str, "texto_aux" - str, "char" - str, "texto_norm" - str, "num" - str, "num_aux" - str, "num_nat" - str, "ent" - str, "lst" - list(str).
