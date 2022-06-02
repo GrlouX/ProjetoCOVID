@@ -1,6 +1,6 @@
 # Biblioteca de back-end 02 com funções para entrevista e diagnóstico
 
-from Cov_back00_v9 import valid_num as valn, valid_tex as valt
+from Cov_back00 import valid_num as valn, valid_tex as valt
 
 # Função para capturar as respostas no questionário (com parâmetros "cid, bat" e retorno "resp")
 def questionario(cid,bat):
