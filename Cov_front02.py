@@ -64,6 +64,6 @@ def despedir(desp):
 	# Impressão de despedida aleatória
 	print("\n",desp[intx])
 
-# Linhas válidas de código da biblioteca de front-end 02: 42
+# Linhas válidas de código da biblioteca de front-end 02: 43
 # Comandos da linguagem (6): "print(str)", "input(str)", "randint(num_ini,num_fin)", "len(str/list)", "range(num_ini,num_fin*)", "int(var)"
 # Variáveis (17): "elem" - str, "j" - int, "k" - int, "l" - int, "cid" - tuple, "res_cid" - str/list, "perg" - list, "res_perg" - str/list, "cump" - list, "res_cump" - str/list, , "usu" - tuple, "res_usu" - str/list, "pes" - list, "que" - list, "ind" - list, "desp" - list, "intx" - int
